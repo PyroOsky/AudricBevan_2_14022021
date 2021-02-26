@@ -1,22 +1,212 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Premiers tests du CSS</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>Reservia</title>
+        <script src="https://kit.fontawesome.com/027b01606f.js" crossorigin="anonymous"></script>
+
     </head>
 
-    <body>
-        <h1>Mon super site</h1>
-        
-        <p>Salut et bienvenue sur mon site !<br>
-        Pour le moment, mon <span class="underline">site</span> est un peu <em>vide</em>. <br><br>
-        Patientez encore un peu ! </p>
-        <img class="position-image" src="feu.jpg";>
-        
-        <p>
-        <a href="page.html">Ma page</a>
-        </p>
+    <body class="main-wrap">
+
+        <header>
+
+            <a href="index.html"><img class="logo" src="images/logo/Reservia@3x.png" alt="Logo Reservia" /></a>
+
+            <nav class="menu">
+
+                <ul class="list-nav">
+                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">S'inscrire</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main>
+            
+            <section class="search-accomodation">
+
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+
+                <form>
+
+                    <div class="search-wrap">
+
+                        <div class="search-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                    
+                        <input type="search" id="search-bar" placeholder="Marseille, France" name="q" />
+                        
+                        <input type="submit" class="search-button" value="Rechercher">
+
+                    </div>
+
+                </form>
+
+            </section>
+
+            <section class="filters">
+
+                <h2>Filtres</h2>
+
+            </section>
+
+            <section class="accomodation-wrap">
+
+                <div class="accomodation-title">
+                    <h2>Hébergements à Marseille</h2>
+                </div>
+
+                <article class="accomodation-article1">
+                    <div class="article-wrap">
+                        <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="accomodation-image"/>
+                        <div class="accomodation-description">
+                            <h3>Auberge La Cannebière</h3>
+                            <p>Nuit à partir de <strong>25€</strong></p>
+                            <div class="ranking">
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="starempty">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            
+                <article class="accomodation-article2">
+                    <div class="article-wrap">
+                        <img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="accomodation-image"/>
+                        <div class="accomodation-description">
+                            <h3>Hôtel du port</h3>
+                            <p>Nuit à partir de <strong>52€</strong></p>
+                            <div class="ranking">
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="starfull">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                </article>
+            
+                <article class="accomodation-article3">
+                    <div class="article-wrap">
+                        <img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="accomodation-image"/>
+                        <div class="accomodation-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </article>
+            
+                <section class="accomodation-wrap">
+                    <article class="accomodation-article4">
+                        <div class="article-wrap">
+                            <img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="accomodation-image"/>
+                            <div class="accomodation-description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </article>
+                
+                    <article class="accomodation-article5">
+                        <div class="article-wrap">
+                            <img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="accomodation-image"/>
+                            <div class="accomodation-description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </article>
+                
+                    <article class="accomodation-article6">
+                        <div class="article-wrap">
+                            <img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="accomodation-image"/>
+                            <div class="accomodation-description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="accomodation-showmore">
+                        <a href="#">Afficher plus</a>
+                    </div>
+            
+            </section>
+
+            <section class="activities">
+                
+            </section>
+
+        </main>
+
+        <footer>
+
+            <div class="about">
+
+                <h2>A propos</h2>
+
+                <ul class="list-footer">
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+
+            </div>
+
+            <div class="our-accommodations">
+
+                <h2>Nos hébergements</h2>
+                
+                <ul class="list-footer">
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
+
+            </div>
+
+            <div class="assistance">
+
+                <h2>Assistance</h2>
+
+                <ul class="list-footer">
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+
+            </div>
+
+        </footer>
         
     </body>
 </html>
