@@ -7,14 +7,43 @@
 
 }
 
-.main-wrap
-{
-
-}
-
 .logo
 {
     width: 80px;
+}
+
+body
+{
+    font-family: 'raleway';
+}
+
+h1
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p
+{
+    font-size: 14px;
+}
+
+strong
+{
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .list-nav
@@ -57,7 +86,6 @@
     padding: 5px;
     font-size: 12px;
     font-weight: bold;
-    font-family: 'raleway';
 }
 
 .search-button
@@ -73,100 +101,64 @@
     border-bottom-right-radius: 10px;
     font-size: 12px;
     font-weight: bold;
-    font-family: 'raleway';
     cursor: pointer;
 }
 
-body
-{
-    font-family: 'raleway';
-}
-
-h1
-{
-    font-size: 24px;
-    font-weight: bold;
-}
-
-h2
-{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-h3
-{
-    font-size: 16px;
-    font-weight: bold;
-}
-
-p
-{
-    font-size: 14px;
-}
-
-strong
-{
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.accomodation-wrap
+.marseilles-accomodations
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40px 300px 300px 40px;
+    grid-template-rows: 5rem 18rem 18rem 5rem;
     background-color: #F2F2F2;
-    border: none;
-    grid-gap: 10px;
     max-width: 60%;
-    padding: 10px;
+    grid-gap: 3rem;
+    padding: 3rem;
 }
 
 .accomodation-image
 {
+    max-height: 8rem;
+    object-fit: cover;
+    margin: none;
+    padding: none;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: #FFF;
-    border-bottom-left-radius: none;
-    border-bottom-right-radius: none;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     border-bottom: none;
-    max-width: 405px;
-    min-width: 275px;
-    max-height: 200px;
-    object-fit: cover;
-    margin: 0px;
-    padding: 0px;
-
 }
 
 .accomodation-description
 {
-    display: flex;
-    flex-direction: column;
     background-color: #FFF;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #FFF;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: none;
-    border-top-left-radius: none;
-    border-top: none;
-    margin: 0px;
-    padding: 5px 5px 5px 5px;
+    margin: none;
+    padding: 5px;
     text-align: left;
-    max-width: 395px;
-    min-width: 270px;
-
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFF;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top: none;
 }
 
-.article-wrap
+.starfull
+{
+    font-size: 12px;
+    color: #0065FC;
+}
+
+.starempty
+{
+    font-size: 12px;
+    color: #F2F2F2;
+}
+
+.ranking
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .accomodation-title
@@ -213,24 +205,6 @@ strong
 
 .accomodation-showmore
 {
-    grid-column: 1 / 2;
+    grid-column: 1 / 4;
     grid-row: 4 / 5;
-}
-
-.starfull
-{
-    font-size: 12px;
-    color: #0065FC;
-}
-
-.starempty
-{
-    font-size: 12px;
-    color: #F2F2F2;
-}
-
-.ranking
-{
-    display: flex;
-    flex-direction: row;
 }
