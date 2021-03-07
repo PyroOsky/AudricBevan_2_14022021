@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Reservia</title>
@@ -8,10 +10,13 @@
       src="https://kit.fontawesome.com/027b01606f.js"
       crossorigin="anonymous"
     ></script>
+
   </head>
 
   <body>
+
     <div class="main-wrap">
+
       <header class="menu">
 
         <a href="index.html">
@@ -36,11 +41,14 @@
       <main>
 
         <section class="search-accomodation">
+
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
           <p>En plein centre ville ou en pleine nature</p>
 
           <form>
+
             <div class="search-wrap">
+
               <div class="search-icon">
                 <i class="fas fa-map-marker-alt"></i>
               </div>
@@ -52,42 +60,72 @@
                 name="q"
               />
 
-              <input type="submit" class="search-button" value="Rechercher" />
+              <input 
+                type="submit" 
+                class="search-button" 
+                value="Rechercher" 
+              />
+
             </div>
+
           </form>
+
         </section>
 
-        <section class="search-filters">
+        <section class="filters">
 
-          <div class="filters">
+          <h2 class="filters-title">Filtres</h2>
 
-            <h2 class="filter-title">Filtres</h2>
+          <div class="filter-button">
 
-            <div class="filter-button">
-
+            <div class="filter-wrap-icon">
               <i class="fas fa-money-bill-wave filter-icon"></i>
-              <a href="#" class="filter-link">Economique</a>
-
-              <i class="fas fa-child filter-icon"></i>
-              <a href="#" class="filter-link">Familial</a>
-
-              <i class="fas fa-heart filter-icon"></i>
-              <a href="#" class="filter-link">Romantique</a>
-
-              <i class="fas fa-dog filter-icon"></i>
-              <a href="#" class="filter-link">Animaux autorisés</a>
-
             </div>
 
+            <span class="filter-title">Économique</span>
+
           </div>
 
-          <div class="information">
+          <div class="filter-button">
 
-            <i class="fas fa-info info-icon"></i>
+            <div class="filter-wrap-icon">
+              <i class="fas fa-child filter-icon"></i>
+            </div>
+
+            <span class="filter-title">Familial</span>
+
+          </div>
+
+          <div class="filter-button">
+
+            <div class="filter-wrap-icon">
+              <i class="fas fa-heart filter-icon"></i>
+            </div>
+
+            <span class="filter-title">Romantique</span>
+
+          </div>
+
+          <div class="filter-button">
+
+            <div class="filter-wrap-icon">
+              <i class="fas fa-dog filter-icon"></i>
+            </div>
+
+            <span class="filter-title">Animaux autorisés</span>
+
+          </div>
+
+          <div class="info">
+
+            <div class="info-wrap-icon">
+              <i class="fas fa-info info-icon"></i>
+            </div>
+
             <p class="info-text">Plus de 500 logements sont disponibles dans cette ville</p>
-
+          
           </div>
-
+          
         </section>
 
         <section id="accomodations">
@@ -273,59 +311,69 @@
 
         </section>
 
-        <section id="activities">
-          
-          <h2 class="marseille-activity-title">Activités à Marseille</h2>
-
-            <article class="activity-card activity-card1">
-              <div class="activity-card-wrap"></div>
-              <img
+        <section id="activity">
+          <h2 class="activity-title">Activités à Marseille</h2>
+          <a href="#" class="activity-card activity-card1">
+            <div class="activity-card-wrap">
+              <img 
+                class="activity-card-wrap-image"
                 src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                class="activity-card-image"
-              />
-                <h3 class="activity-card-title">Vieux Port</h3>
-            </article>
-
-            <article class="activity-card activity-card2">
-              <img
+                alt="Un port de plaisance remplis de bateau en premier plan avec une ville dans le second plan" 
+              >
+            </div>
+            <h3 class="activity-card-title">Vieux Port</h3>
+          </a>
+          <a href="#" class="activity-card activity-card2">
+            <div class="activity-card-wrap">
+              <img 
+                class="activity-card-wrap-image"
                 src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                class="activity-card-image"
-              />
-                <h3 class="activity-card-title">Fort de Pomègues</h3>
-            </article> 
-
-            <article class="activity-card activity-card3">
-              <img
-                src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                class="activity-card-image"
-              />
-                <h3 class="activity-card-title">Île du Frioul</h3>
-            </article>
-
-            <article class="activity-card activity-card4">
-              <img
+                alt="Desert rocailleux beige avec un fort elle aussi beige un peu plus loin dans l'image" 
+              >
+            </div>
+            <h3 class="activity-card-title">Fort de Pomègues</h3>
+          </a>
+          <a href="#" class="activity-card activity-card3">
+            <div class="activity-card-wrap">
+              <img 
+                class="activity-card-wrap-image"
+                src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
+                alt="Paysage mélengeant roche et verdure en premier plan et une grande mer bleu en second plan" 
+              >
+            </div>
+            <h3 class="activity-card-title">Parc National des Calanques</h3>
+          </a>
+          <a href="#" class="activity-card activity-card4">
+            <div class="activity-card-wrap">
+              <img 
+                class="activity-card-wrap-image"
                 src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                class="activity-card-image"
-              />
-                <h3 class="activity-card-title">Parc National des Calanques</h3>
-            </article>
-
-            <article class="activity-card activity-card5">
-              <img
+                alt="Grande ville assez plate mais doté d'une colline qui mets en valeur un bâtiment, certainement religieux" 
+              >
+            </div>
+            <h3 class="activity-card-title">Notre-Dame-de-la-Garde</h3>
+          </a>
+          <a href="#" class="activity-card activity-card5">
+            <div class="activity-card-wrap">
+              <img 
+                class="activity-card-wrap-image"
                 src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                class="activity-card-image"
-              />
-                <h3 class="activity-card-title">Notre-Dame-de-la-Garde</h3>
-            </article>
-
-            <article class="activity-card activity-card6">
-              <img
+                alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan" 
+              >
+            </div>
+            <h3 class="activity-card-title">Île du Frioul</h3>
+          </a>
+          
+          <a href="#" class="activity-card activity-card6">
+            <div class="activity-card-wrap">
+              <img 
+                class="activity-card-wrap-image"
                 src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                class="activity-card-image"
-              />
-                <h3 class="activity-card-title">Parc Longchamp</h3>
-            </article>
-        
+                alt="Majestueux batiment au pierres blanches dôté d'une fontaine, tout autant majestueuse" 
+              >
+            </div>
+            <h3 class="activity-card-title">Parc Longchamp</h3>
+          </a>
         </section>
 
       </main>
