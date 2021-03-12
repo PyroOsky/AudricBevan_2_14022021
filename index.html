@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+  <!--HEAD-->
+
   <head>
 
     <meta charset="utf-8" />
@@ -15,9 +17,13 @@
 
   </head>
 
+  <!--BODY-->
+
   <body>
 
     <div class="main-wrap">
+
+      <!--HEADER-->
 
       <header class="menu">
 
@@ -40,95 +46,69 @@
 
       </header>
 
+      <!--MAIN-->
+
       <main>
+
+        <!--SEARCH-->
 
         <section class="search-accomodation">
 
-          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-          <p>En plein centre ville ou en pleine nature</p>
-
-          <form>
-
-            <div class="search-wrap">
-
-              <div class="search-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-
-              <input
-                type="search"
-                id="search-bar"
-                placeholder="Marseille, France"
-                name="q"
-              />
-
-              <input 
-                type="submit" 
-                class="search-button" 
-                value="Rechercher" 
-              />
-
-            </div>
-
+          <h1 class="search-title">Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p class="search-subtitle">En plein centre ville ou en pleine nature</p>
+  
+          <form class="search-wrap">
+              <i class="fas fa-map-marker-alt search-icon"></i>
+            <input class="search-bar" type="search" placeholder="Marseille, France" size="1">
+            <button class="search-button">
+              <span class="search-button-text">Rechercher</span>
+              <i class="fas fa-search search-button-icon"></i>
+            </button>
           </form>
 
         </section>
+  
+        <!--FILTERS-->
 
         <section class="filters">
-
+    
           <h2 class="filters-title">Filtres</h2>
 
           <div class="filter-button">
-
             <div class="filter-wrap-icon">
               <i class="fas fa-money-bill-wave filter-icon"></i>
             </div>
-
             <span class="filter-title">Économique</span>
-
           </div>
 
           <div class="filter-button">
-
             <div class="filter-wrap-icon">
               <i class="fas fa-child filter-icon"></i>
             </div>
-
             <span class="filter-title">Familial</span>
-
           </div>
 
           <div class="filter-button">
-
             <div class="filter-wrap-icon">
               <i class="fas fa-heart filter-icon"></i>
             </div>
-
             <span class="filter-title">Romantique</span>
-
           </div>
 
           <div class="filter-button">
-
             <div class="filter-wrap-icon">
               <i class="fas fa-dog filter-icon"></i>
             </div>
-
             <span class="filter-title">Animaux autorisés</span>
-
           </div>
-
+    
           <div class="info">
-
-            <div class="info-wrap-icon">
-              <i class="fas fa-info info-icon"></i>
-            </div>
-
+            <div class="info-wrap-icon"><i class="fas fa-info info-icon"></i></div>
             <p class="info-text">Plus de 500 logements sont disponibles dans cette ville</p>
-          
           </div>
-          
         </section>
+
+        <!--ACCOMODATIONS-->
 
         <section class="accomodations" id="accomodations">
 
@@ -145,8 +125,8 @@
                   alt="Cannebière Inn"
                 >
                 <div class="marseille-accomodation-content">
-                  <h3 class="marseille-accomodation-article-title">Auberge la Cannebière</h3>
-                  <p>Nuit à partir de <strong class="marseille-accomodation-price">25€</strong></p>
+                  <h3 class="marseille-accomodation-article-title article-subtitle">Auberge la Cannebière</h3>
+                  <p class="article-text">Nuit à partir de <strong class="marseille-accomodation-price">25€</strong></p>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
@@ -164,8 +144,8 @@
                   alt="Harbour Hostel."
                 >
                 <div class="marseille-accomodation-content">
-                  <h3 class="marseille-accomodation-article-title">Hôtel du port</h3>
-                  <p>Nuit à partir de <strong class="marseille-accomodation-price">52€</strong></p>
+                  <h3 class="marseille-accomodation-article-title article-subtitle">Hôtel du port</h3>
+                  <p class="article-text">Nuit à partir de <strong class="marseille-accomodation-price">52€</strong></p>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
@@ -183,8 +163,8 @@
                   alt="Seagull Hostel."
                 >
                 <div class="marseille-accomodation-content">
-                  <h3 class="marseille-accomodation-article-title">Hôtel Les mouettes</h3>
-                  <p>Nuit à partir de <strong class="marseille-accomodation-price">76€</strong></p>
+                  <h3 class="marseille-accomodation-article-title article-subtitle">Hôtel Les mouettes</h3>
+                  <p class="article-text">Nuit à partir de <strong class="marseille-accomodation-price">76€</strong></p>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
@@ -202,8 +182,8 @@
                   alt="Sea Inn."
                 >
                 <div class="marseille-accomodation-content">
-                  <h3 class="marseille-accomodation-article-title">Auberge de la mer</h3>
-                  <p>Nuit à partir de <strong class="marseille-accomodation-price">46€</strong></p>
+                  <h3 class="marseille-accomodation-article-title article-subtitle">Auberge de la mer</h3>
+                  <p class="article-text">Nuit à partir de <strong class="marseille-accomodation-price">46€</strong></p>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
@@ -221,8 +201,8 @@
                   alt="Basket Inn."
                 >
                 <div class="marseille-accomodation-content">
-                  <h3 class="marseille-accomodation-article-title">Auberge Le Panier</h3>
-                  <p>Nuit à partir de <strong class="marseille-accomodation-price">23€</strong></p>
+                  <h3 class="marseille-accomodation-article-title article-subtitle">Auberge Le Panier</h3>
+                  <p class="article-text">Nuit à partir de <strong class="marseille-accomodation-price">23€</strong></p>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
@@ -240,8 +220,8 @@
                   alt="Amina Hostel."
                 >
                 <div class="marseille-accomodation-content">
-                  <h3 class="marseille-accomodation-article-title">Hôtel chez Amina</h3>
-                  <p>Nuit à partir de <strong class="marseille-accomodation-price">96€</strong></p>
+                  <h3 class="marseille-accomodation-article-title article-subtitle">Hôtel chez Amina</h3>
+                  <p class="article-text">Nuit à partir de <strong class="marseille-accomodation-price">96€</strong></p>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
                     <i class="fas fa-star starfull"></i>
@@ -268,8 +248,8 @@
                   >
                 </div>
                 <div class="popular-accomodation-content">
-                  <h3 class="popular-accomodation-content-margin">Hôtel Le soleil du matin</h3>
-                  <p class="popular-accomodation-content-margin">Nuit à partir de <strong class="marseille-accomodation-price">128€</strong></p>
+                  <h3 class="popular-accomodation-content-margin article-subtitle">Hôtel Le soleil du matin</h3>
+                  <p class="popular-accomodation-content-margin article-text">Nuit à partir de <strong class="marseille-accomodation-price">128€</strong></p>
                   <div class="blank-space"></div>
                   <div>
                     <i class="fas fa-star starfull"></i>
@@ -292,8 +272,8 @@
                   >
                 </div>
                 <div class="popular-accomodation-content">
-                  <h3 class="popular-accomodation-content-margin">Au coeur de l'eau Chambres d'hôtes</h3>
-                  <p class="popular-accomodation-content-margin">Nuit à partir de <strong class="marseille-accomodation-price">71€</strong></p>
+                  <h3 class="popular-accomodation-content-margin article-subtitle">Au coeur de l'eau Chambres d'hôtes</h3>
+                  <p class="popular-accomodation-content-margin article-text">Nuit à partir de <strong class="marseille-accomodation-price">71€</strong></p>
                   <div class="blank-space"></div>
                   <div>
                     <i class="fas fa-star starfull"></i>
@@ -316,8 +296,8 @@
                   >
                 </div>
                 <div class="popular-accomodation-content">
-                  <h3 class="popular-accomodation-content-margin">Hôtel Tout bleu et Blanc</h3>
-                  <p class="popular-accomodation-content-margin">Nuit à partir de <strong class="marseille-accomodation-price">68€</strong></p>
+                  <h3 class="popular-accomodation-content-margin article-subtitle">Hôtel Tout bleu et Blanc</h3>
+                  <p class="popular-accomodation-content-margin article-text">Nuit à partir de <strong class="marseille-accomodation-price">68€</strong></p>
                   <div class="blank-space"></div>
                   <div>
                     <i class="fas fa-star starfull"></i>
@@ -333,6 +313,8 @@
           </aside>
 
         </section>
+
+        <!--ACTIVITIES-->
 
         <section id="activities">
 
@@ -429,13 +411,16 @@
 
     </div>
 
+
+    <!--FOOTER-->
+
     <footer class="footer-background">
 
       <div class="footer">
 
         <div class="about">
 
-          <h2>A propos</h2>
+          <h2 class="footer-title">A propos</h2>
 
           <ul class="list-footer">
             <li><a class="link-footer" href="#">Fonctionnement du site</a></li>
@@ -447,7 +432,7 @@
 
         <div class="our-accommodations">
 
-          <h2>Nos hébergements</h2>
+          <h2 class="footer-title">Nos hébergements</h2>
 
           <ul class="list-footer">
             <li><a class="link-footer" href="#">Charte qualité</a></li>
@@ -458,7 +443,7 @@
 
         <div class="assistance">
 
-          <h2>Assistance</h2>
+          <h2 class="footer-title">Assistance</h2>
 
           <ul class="list-footer">
             <li><a class="link-footer" href="#">Centre d'aide</a></li>
