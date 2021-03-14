@@ -353,7 +353,7 @@
             <div class="activity-card-wrap">
               <img 
                 class="activity-card-wrap-image"
-                src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
+                src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
                 alt="Calanques National Park" 
               >
             </div>
@@ -368,7 +368,7 @@
 
               <img 
                 class="activity-card-wrap-image"
-                src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                 alt="Notre-Dame-de-la-Garde" 
               >
             </div>
@@ -382,7 +382,7 @@
             <div class="activity-card-wrap">
               <img 
                 class="activity-card-wrap-image"
-                src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                 alt="Frioul Island" 
               >
             </div>
