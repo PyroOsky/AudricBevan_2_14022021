@@ -531,19 +531,13 @@ font-weight: normal;
     width: 50%;
     text-align: center;
   }
-  .nav-button[active-link=false] {
+  .nav-button {
     color: black;
     border-bottom-style: solid;
     border-bottom-color: transparent;
     border-bottom-width: 0.3rem;
   }
-  .nav-button[active-link=true] {
-    color: #0065FC;
-    border-bottom-style: solid;
-    border-bottom-color: #0065FC;
-    border-bottom-width: 0.3rem;
-  }
-  .nav-button:hover[active-link=false] {
+  .nav-button:hover {
     color: #0065FC;
     border-bottom-style: solid;
     border-bottom-color: #0065FC;
@@ -608,19 +602,13 @@ font-weight: normal;
     font-weight: 500;
     transition-duration: 0.1s;
   }
-  .nav-button[active-link=false] {
+  .nav-button {
     color: black;
     border-top-style: solid;
     border-top-color: transparent;
     border-top-width: 0.3rem;
   }
-  .nav-button[active-link=true] {
-    color: #0065FC;
-    border-top-style: solid;
-    border-top-color: #0065FC;
-    border-top-width: 0.3rem;
-  }
-  .nav-button:hover[active-link=false] {
+  .nav-button:hover {
     color: #0065FC;
     border-top-style: solid;
     border-top-color: #0065FC;
