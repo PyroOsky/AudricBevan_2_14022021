@@ -534,7 +534,7 @@ font-weight: normal;
   .nav-button {
     color: black;
     border-bottom-style: solid;
-    border-bottom-color: transparent;
+    border-bottom-color: #f2f2f2;
     border-bottom-width: 0.3rem;
   }
   .nav-button:hover {
